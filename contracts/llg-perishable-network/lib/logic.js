@@ -257,7 +257,8 @@ function setupDemo(setupDemo) {
     contract.maxPenaltyFactor = 0.1; // we reduce the price by 10 cents for every degree above the max temp
 
     // create the shipment
-    var shipment = factory.newResource(NS, 'Shipment', '320022000251363131363432');
+    //var shipment = factory.newResource(NS, 'Shipment', '320022000251363131363432');
+    var shipment = factory.newResource(NS, 'Shipment', 'SHIP_001');
     shipment.type = 'MEDICINE';
     shipment.status = 'IN_TRANSIT';
     shipment.unitCount = 5000;

@@ -83,7 +83,8 @@ Submit a `GpsReading` transaction:
   "latitude":"40.6840",
   "latitudeDir":"N",
   "longitude":"74.0062",
-  "laongitudeDir":"W",
+  "longitudeDir":"W",
+  "shipment": "resource:org.acme.shipping.perishable.Shipment#SHIP_001"
 }
 ```
 
